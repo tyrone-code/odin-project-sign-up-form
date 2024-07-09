@@ -14,7 +14,7 @@
 
 .container {
   position: relative;
-  border: 2px dashed blue;
+  background-color: whitesmoke;
 }
 .green-leaf {
   width: 37%;
@@ -50,7 +50,23 @@ h2 {
   top: 20%;
   background: rgba(11, 12, 11, 0.6);
 }
-
+.photo-credit {
+  position: absolute;
+  left: 10%;
+  top: 95%;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+.photo-credit a:link {
+  color: rgb(158, 158, 158);
+}
+.photo-credit a:visited {
+  color: rgb(199, 199, 199);
+}
+.photo-credit a:hover {
+  color: rgb(124, 118, 121);
+}
 .first-para {
   position: absolute;
   left: 40%;
@@ -79,4 +95,66 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   width: 52%;
+}
+
+.form-background {
+  position: absolute;
+  width: 62.9%;
+  height: 36%;
+  left: 37.1%;
+  background-color: rgb(255, 255, 255);
+  top: 40%;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2);
+}
+
+.lets-do-this {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  color: rgb(51, 51, 51);
+  position: absolute;
+  left: 5%;
+  top: 6%;
+}
+
+.form-left {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-left label {
+  font-size: 1rem;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.form-left input {
+  margin-bottom: 30px;
+  width: 132%;
+  height: 1.7rem;
+}
+.form-right {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.form-right label {
+  font-size: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.form-right input {
+  margin-bottom: 30px;
+  width: 132%;
+  height: 1.7rem;
 }
