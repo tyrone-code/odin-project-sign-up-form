@@ -15,10 +15,12 @@
 .container {
   position: relative;
   background-color: whitesmoke;
+  height: 1000px;
 }
 .green-leaf {
   width: 37%;
   height: 100%;
+  object-fit: cover;
 }
 
 .odin-outline {
@@ -32,7 +34,7 @@ h2 {
   font-family: "norsebold", Courier, monospace;
   position: absolute;
   display: inline;
-  left: 17%;
+  left: 20%;
   top: 25%;
   font-size: 5rem;
   color: whitesmoke;
@@ -100,10 +102,10 @@ h2 {
 .form-background {
   position: absolute;
   width: 62.9%;
-  height: 36%;
+  height: 30%;
   left: 37.1%;
   background-color: rgb(255, 255, 255);
-  top: 40%;
+  top: 35%;
   color: rgb(0, 0, 0);
   box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2);
 }
@@ -143,6 +145,7 @@ h2 {
   top: 20%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  width: 400px;
 }
 
 .form-right label {
@@ -150,11 +153,33 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   font-size: 11px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.5px;
 }
 
 .form-right input {
   margin-bottom: 30px;
-  width: 132%;
+  width: 60%;
   height: 1.7rem;
+}
+
+.create-account {
+  position: absolute;
+  top: 110%;
+  left: 5%;
+  background: #596d48;
+  color: white;
+  width: 200px;
+  height: 45px;
+  font: bold15px arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: #596d48;
+}
+
+.log-in {
+  position: absolute;
+  left: 40%;
+  top: 75%;
+  font-family: Arial, Helvetica, sans-serif;
 }

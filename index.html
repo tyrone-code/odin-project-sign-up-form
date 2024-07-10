@@ -24,27 +24,30 @@
         <p class="know-what-to-do">You <em>know</em> you want to.</p>
         <span class="form-background">
             <p class="lets-do-this">Let's do this!</p>
-            <form action="/my-handling-form-page" method="post" class="form-left">
-                <label for="fname">FIRST NAME</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="user-email">EMAIL</label><br>
-                <input type="email" id="user-email" name="email"><br>
-                <label for="user-password">PASSWORD</label><br>
-                <input type="password" id="user-password" name="password"><br>
-
+            <form action="/my-handling-form-page" method="post">
+                <div class="form-left">
+                    <label for="fname">FIRST NAME</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="user-email">EMAIL</label><br>
+                    <input type="email" id="user-email" name="email"><br>
+                    <label for="user-password">PASSWORD</label><br>
+                    <input type="password" id="user-password" name="password"><br>
+                </div>
+                <div class="form-right">
+                    <label for="lname">LAST NAME:</label><br>
+                    <input type="text" id=lname" name="lname"><br>
+                    <label for="phone-num">PHONE NUMBER:</label><br>
+                    <input type="tel" id="phone-num" name="phonenumber"><br>
+                    <label for="user-password"> CONFIRM PASSWORD:</label><br>
+                    <input type="password" id="user-password" name="password"><br>
+                </div>
+                <input type="submit" value="Create Account" class="create-account">
 
             </form>
-            <form action="/my-handling-form-page" method="post" class="form-right">
-                <label for="lname">LAST NAME:</label><br>
-                <input type="text" id=lname" name="lname"><br>
-                <label for="phone-num">PHONE NUMBER:</label><br>
-                <input type="tel" id="phone-num" name="phonenumber"><br>
-                <label for="user-password"> CONFIRM PASSWORD:</label><br>
-                <input type="password" id="user-password" name="password"><br>
 
 
-            </form>
         </span>
+        <p class="log-in">Already have an account? <a href="#">Log in</a></p>
 
     </div>
 </body>
