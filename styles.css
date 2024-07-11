@@ -25,8 +25,8 @@
 
 .odin-outline {
   position: absolute;
-  height: 18%;
-  left: 10%;
+  height: 10%;
+  left: 11%;
   top: 21%;
 }
 
@@ -34,8 +34,8 @@ h2 {
   font-family: "norsebold", Courier, monospace;
   position: absolute;
   display: inline;
-  left: 20%;
-  top: 25%;
+  left: 16.5%;
+  top: 22%;
   font-size: 5rem;
   color: whitesmoke;
 }
@@ -46,7 +46,7 @@ h2 {
 
 .transparent-bar {
   position: absolute;
-  height: 20%;
+  height: 12%;
   width: 37%;
   left: 0%;
   top: 20%;
@@ -138,6 +138,8 @@ h2 {
   margin-bottom: 30px;
   width: 132%;
   height: 1.7rem;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 195, 195);
 }
 .form-right {
   position: absolute;
@@ -160,6 +162,8 @@ h2 {
   margin-bottom: 30px;
   width: 60%;
   height: 1.7rem;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 195, 195);
 }
 
 .create-account {
@@ -175,6 +179,7 @@ h2 {
   font-weight: bold;
   border-radius: 10px;
   border: #596d48;
+  cursor: pointer;
 }
 
 .log-in {
@@ -182,4 +187,34 @@ h2 {
   left: 40%;
   top: 75%;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
+.log-in a:link {
+  color: #596d48;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.log-in a:visited {
+  color: #39462e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.log-in a:hover {
+  color: #596d48;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 3px 10px rgba(73, 92, 255, 0.7);
+  outline: none !important;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+/* input:valid {
+  border-color: green;
+} */
